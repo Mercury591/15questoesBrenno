@@ -14,6 +14,7 @@ class Main {
         quiz.adicionarQuestao(new Questao("Qual jogo de RPG tem como principal mecânica a captura e o treinamento de monstros chamados \"Pokémon\"?", "A) Digimon", "B) Final Fantasy", "C) Pokémon", "D) Dragon Quest", "E) Monster Hunter", "C"));
         quiz.adicionarQuestao(new Questao("Em \"Minecraft\", qual é o nome do material necessário para criar uma mesa de encantamento?", "A) Diamante", "B) Obsidiana", "C) Ferro", "D) Ouro", "E) Carvão", "B"));
         quiz.adicionarQuestao(new Questao("Qual é o nome do personagem principal em \"God of War\"?", "A) Ares", "B) Kratos", "C) Zeus", "D) Hades", "E) Hermes", "B"));
+        quiz.adicionarQuestao(new Questao("Em \"League of Legends\", quantos jogadores compõem uma equipe padrão?", "A) 3", "B) 4", "C) 5", "D) 6", "E) 7", "C"));
         quiz.executar();
     }
 
