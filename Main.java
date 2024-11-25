@@ -8,6 +8,7 @@ class Main {
         Quiz quiz = new Quiz();
 
         quiz.adicionarQuestao(new Questao("Qual é o nome do protagonista de \"The Legend of Zelda\"?", "A) Link", "B) Zelda", "C) Ganondorf", "D) Epona", "E) Navi", "A"));
+        quiz.adicionarQuestao(new Questao("Em \"Super Mario Bros\", qual é o nome do irmão de Mario?", "A) Luigi", "B) Wario", "C) Yoshi", "D) Toad", "E) Bowser", "A"));
         quiz.executar();
     }
 
