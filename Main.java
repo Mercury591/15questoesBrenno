@@ -21,6 +21,7 @@ class Main {
         quiz.adicionarQuestao(new Questao("Em \"Fortnite\", qual é a principal mecânica de construção?", "A) Construir armas", "B) Construir estruturas de defesa e ataque", "C) Construir veículos", "D) Construir cidades inteiras", "E) Construir personagens", "B"));
         quiz.adicionarQuestao(new Questao("Qual jogo de corrida tem a famosa pista \"Rainbow Road\"?", "A) Need for Speed", "B) Gran Turismo", "C) Forza Horizon", "D) Mario Kart", "E) Asphalt", "D"));
         quiz.adicionarQuestao(new Questao("Em \"The Witcher 3: Wild Hunt\", qual é o nome da filha adotiva de Geralt de Rivia?", "A) Triss", "B) Yennefer", "C) Ciri", "D) Keira", "E) Vesemir", "C"));
+        quiz.adicionarQuestao(new Questao("Qual jogo de tiro em primeira pessoa é conhecido por seu modo \"Battle Royale\"?", "A) Overwatch", "B) Call of Duty", "C) Apex Legends", "D) Valorant", "E) Battlefield", "C"));
         quiz.executar();
     }
 
