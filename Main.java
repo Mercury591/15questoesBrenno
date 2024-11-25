@@ -12,6 +12,7 @@ class Main {
         quiz.adicionarQuestao(new Questao("Qual jogo popular apresenta uma ilha habitada por animais antropomórficos e permite que o jogador gerencie a ilha?", "A) Animal Crossing", "B) Stardew Valley", "C) Harvest Moon", "D) The Sims", "E) Minecraft", "A"));
         quiz.adicionarQuestao(new Questao("Em que ano foi lançado o primeiro jogo da série \"Call of Duty\"?", "A) 2001", "B) 2003", "C) 2005", "D) 2007", "E) 2009", "B"));
         quiz.adicionarQuestao(new Questao("Qual jogo de RPG tem como principal mecânica a captura e o treinamento de monstros chamados \"Pokémon\"?", "A) Digimon", "B) Final Fantasy", "C) Pokémon", "D) Dragon Quest", "E) Monster Hunter", "C"));
+        quiz.adicionarQuestao(new Questao("Em \"Minecraft\", qual é o nome do material necessário para criar uma mesa de encantamento?", "A) Diamante", "B) Obsidiana", "C) Ferro", "D) Ouro", "E) Carvão", "B"));
         quiz.executar();
     }
 
