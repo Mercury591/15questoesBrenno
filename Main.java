@@ -5,6 +5,12 @@ import java.util.Scanner;
 class Main {
 
     public static void main(String[] args) {
+        System.out.println("UNIFAN - Alfredo Nasser");
+        System.out.println("Aluno: Danilo Serafim Lima");
+        System.out.println("Professor: Brenno");
+        System.out.println("Seja bem vindo, e bom quiz!");
+
+
         Quiz quiz = new Quiz();
 
         quiz.adicionarQuestao(new Questao("Qual é o nome do protagonista de \"The Legend of Zelda\"?", "A) Link", "B) Zelda", "C) Ganondorf", "D) Epona", "E) Navi", "A"));
