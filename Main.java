@@ -8,7 +8,7 @@ class Main {
         System.out.println("UNIFAN - Alfredo Nasser");
         System.out.println("Aluno: Danilo Serafim Lima");
         System.out.println("Professor: Brenno");
-        System.out.println("Seja bem-vindo, e bom quiz!");
+        System.out.println("Seja bem-vindo, você vai responder um quiz, com o tema jogo em geral, bom quiz!");
 
         Quiz quiz = new Quiz();
 
