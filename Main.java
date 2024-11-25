@@ -8,8 +8,7 @@ class Main {
         System.out.println("UNIFAN - Alfredo Nasser");
         System.out.println("Aluno: Danilo Serafim Lima");
         System.out.println("Professor: Brenno");
-        System.out.println("Seja bem vindo, e bom quiz!");
-
+        System.out.println("Seja bem-vindo, e bom quiz!");
 
         Quiz quiz = new Quiz();
 
@@ -28,6 +27,7 @@ class Main {
         quiz.adicionarQuestao(new Questao("Qual jogo de corrida tem a famosa pista \"Rainbow Road\"?", "A) Need for Speed", "B) Gran Turismo", "C) Forza Horizon", "D) Mario Kart", "E) Asphalt", "D"));
         quiz.adicionarQuestao(new Questao("Em \"The Witcher 3: Wild Hunt\", qual é o nome da filha adotiva de Geralt de Rivia?", "A) Triss", "B) Yennefer", "C) Ciri", "D) Keira", "E) Vesemir", "C"));
         quiz.adicionarQuestao(new Questao("Qual jogo de tiro em primeira pessoa é conhecido por seu modo \"Battle Royale\"?", "A) Overwatch", "B) Call of Duty", "C) Apex Legends", "D) Valorant", "E) Battlefield", "C"));
+
         quiz.executar();
     }
 
@@ -85,7 +85,7 @@ class Main {
 
         public boolean isCorreta(String resposta) {
             if (resposta.equalsIgnoreCase(this.correta)) {
-                System.out.println("Parabéns resposta correta! - Letra: " + this.correta);
+                System.out.println("Parabéns, resposta correta! - Letra: " + this.correta);
                 System.out.println();
                 return true;
             } else {
@@ -99,11 +99,12 @@ class Main {
 }
 
 class Quiz {
-
     private List<Main.Questao> questoes;
+    private int pontuacao;
 
     public Quiz() {
         questoes = new ArrayList<>();
+        pontuacao = 0;
     }
 
     public void adicionarQuestao(Main.Questao questao) {
@@ -114,7 +115,12 @@ class Quiz {
         for (Main.Questao questao : questoes) {
             questao.escrevaQuestao();
             String resposta = questao.leiaResposta();
-            questao.isCorreta(resposta);
+            if (questao.isCorreta(resposta)) {
+                pontuacao++;
+            }
+            System.out.println("Sua pontuação atual é: " + pontuacao);
+            System.out.println();
         }
+        System.out.println("Quiz finalizado! Sua pontuação final é: " + pontuacao);
     }
 }
