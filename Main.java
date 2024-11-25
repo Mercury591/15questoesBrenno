@@ -5,8 +5,10 @@ import java.util.Scanner;
 class Main {
 
     public static void main(String[] args) {
+        Quiz quiz = new Quiz();
 
-
+        quiz.adicionarQuestao(new Questao("Qual é o nome do protagonista de \"The Legend of Zelda\"?", "A) Link", "B) Zelda", "C) Ganondorf", "D) Epona", "E) Navi", "A"));
+        quiz.executar();
     }
 
     static class Questao {
