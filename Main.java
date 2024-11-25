@@ -16,6 +16,7 @@ class Main {
         quiz.adicionarQuestao(new Questao("Qual é o nome do personagem principal em \"God of War\"?", "A) Ares", "B) Kratos", "C) Zeus", "D) Hades", "E) Hermes", "B"));
         quiz.adicionarQuestao(new Questao("Em \"League of Legends\", quantos jogadores compõem uma equipe padrão?", "A) 3", "B) 4", "C) 5", "D) 6", "E) 7", "C"));
         quiz.adicionarQuestao(new Questao("Qual é o objetivo principal do jogo \"Among Us\"?", "A) Construir bases", "B) Completar tarefas e descobrir os impostores", "C) Capturar bandeiras", "D) Coletar recursos", "E) Derrotar monstros", "B"));
+        quiz.adicionarQuestao(new Questao("Em \"The Elder Scrolls V: Skyrim\", como se chama o dragão principal que o jogador deve derrotar?", "A) Alduin", "B) Paarthurnax", "C) Dragonborn", "D) Odahviing", "E) Mirmulnir", "A"));
         quiz.executar();
     }
 
