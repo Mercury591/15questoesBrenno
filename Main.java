@@ -19,6 +19,7 @@ class Main {
         quiz.adicionarQuestao(new Questao("Em \"The Elder Scrolls V: Skyrim\", como se chama o dragão principal que o jogador deve derrotar?", "A) Alduin", "B) Paarthurnax", "C) Dragonborn", "D) Odahviing", "E) Mirmulnir", "A"));
         quiz.adicionarQuestao(new Questao("Qual é o nome do planeta natal de Master Chief em \"Halo\"?", "A) Reach", "B) Earth", "C) Sanghelios", "D) Harvest", "E) Eridanus II", "E"));
         quiz.adicionarQuestao(new Questao("Em \"Fortnite\", qual é a principal mecânica de construção?", "A) Construir armas", "B) Construir estruturas de defesa e ataque", "C) Construir veículos", "D) Construir cidades inteiras", "E) Construir personagens", "B"));
+        quiz.adicionarQuestao(new Questao("Qual jogo de corrida tem a famosa pista \"Rainbow Road\"?", "A) Need for Speed", "B) Gran Turismo", "C) Forza Horizon", "D) Mario Kart", "E) Asphalt", "D"));
         quiz.executar();
     }
 
